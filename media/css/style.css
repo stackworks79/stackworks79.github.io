@@ -12,6 +12,7 @@
 @import url(/media/fonts/telex-regular.css);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:300);
 @import url(//code.cdn.mozilla.net/fonts/fira.css);
+@import url('https://fonts.googleapis.com/css2?family=Waiting+for+the+Sunrise');
 * {
   margin: 0;
   padding: 0; }
@@ -69,7 +70,8 @@ h1, h2 {
 
 time {
   font-family: Ubuntu, monospace; }
-
+  
+header { margin: 4em auto 0 auto; text-align: center; font-family: 'Waiting for the Sunrise'; }
 header img.avatar { width: 64px; border-radius: 50%; }
 
 header {
