@@ -1,7 +1,7 @@
 name: "Stack Works"
 permalink: /:year/:month/:day/:title.html
 
-author: "wayne"
+author: "stackworks"
 atom-baseurl: "stackworks.co.kr"
 disqus: "gopherwood"
 
