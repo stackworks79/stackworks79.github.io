@@ -20,7 +20,7 @@ layout: default
       {% endfor %}
     </span>
     {% endif %}
-    <!-- BEGIN this would not work on any other domain -->
+    <!-- BEGIN this would not work on any other domain 
     <span
       class           = 'like-wrapper'
       like-shortname  = '{{ site.disqus }}'
@@ -34,7 +34,7 @@ layout: default
       l.src = 'https://like.lhzhang.com/javascript/widget.js';
       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(l);
     </script>
-    <!-- END this would not work on any other domain -->
+     END this would not work on any other domain -->
     </section>
     <section class="post">
     {{ post.content }}
@@ -44,7 +44,7 @@ layout: default
   </ul>
   <div class="divider"></div>
   <ul class="listing main-listing">
-    <li class="listing-seperator">Happend earlier this year</li>
+    <li class="listing-seperator">올 한해 이야기</li>
   {% capture year %}{{ site.time | date:"%Y"}}{% endcapture %}
   {% for post in site.posts offset:1 %}
     {% capture y %}{{ post.date | date:"%Y"}}{% endcapture %}
@@ -56,6 +56,6 @@ layout: default
       <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li>
   {% endfor %}
-    <li class="listing-seperator"><a href="/archive.html">Long long ago</a></li>
+    <li class="listing-seperator"><a href="/archive.html">아주 오래된 이야기</a></li>
   </ul>
 </div>
